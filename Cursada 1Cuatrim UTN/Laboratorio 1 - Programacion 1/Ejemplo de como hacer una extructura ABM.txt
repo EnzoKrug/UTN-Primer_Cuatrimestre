@@ -1,0 +1,47 @@
+declaro variables
+
+funcion Inicializo array
+1. dar de alta
+	- funcion	buscarlugarlibre;
+	- if(buscarLugarLibre >= 0)
+	{ 
+		if(funcion cargaRarray() == 0)
+		{
+			printf("todo ok"); 
+		}
+		else
+		{
+			printf("todo mal");
+		}
+	}
+
+2. modificar
+	- funcion	imprimirArray;
+	- if(utn_getNumero() == 0)
+	{ 
+		if(funcion buscarId(preguntar por el id) >= 0 && funcion modificar == 0)
+		{
+			printf("todo ok"); 
+		}
+		else
+		{
+			printf("todo mal");
+		}
+	}
+3. dar de baja
+	- funcion	imprimirArray;
+	- if(utn_getNumero(preguntar por el id) == 0)
+	{ 
+		if(funcion buscarId() >= 0 && funcion dar de baja == 0)
+		{
+			printf("todo ok"); 
+		}
+		else
+		{
+			printf("todo mal");
+		}
+	}
+4. ordenar
+	funcion ordenar por criterios
+5. listar
+	funcion imprimir lo ordenado

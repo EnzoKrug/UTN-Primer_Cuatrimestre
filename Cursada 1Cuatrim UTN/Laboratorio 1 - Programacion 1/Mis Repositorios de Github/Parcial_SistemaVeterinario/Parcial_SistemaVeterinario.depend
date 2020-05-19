@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1589702195 source:c:\users\usuario\desktop\cursada 1cuatrim utn\laboratorio 1 - programacion 1\mis repositorios de github\parcial_sistemaveterinario\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1589729498 source:c:\users\usuario\desktop\cursada 1cuatrim utn\laboratorio 1 - programacion 1\mis repositorios de github\parcial_sistemaveterinario\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utn.h"
+	"Cliente.h"
+
+1589702195 c:\users\usuario\desktop\cursada 1cuatrim utn\laboratorio 1 - programacion 1\mis repositorios de github\parcial_sistemaveterinario\utn.h
+
+1589729217 c:\users\usuario\desktop\cursada 1cuatrim utn\laboratorio 1 - programacion 1\mis repositorios de github\parcial_sistemaveterinario\cliente.h
+
+1589729279 source:c:\users\usuario\desktop\cursada 1cuatrim utn\laboratorio 1 - programacion 1\mis repositorios de github\parcial_sistemaveterinario\cliente.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utn.h"
+	"Cliente.h"
+

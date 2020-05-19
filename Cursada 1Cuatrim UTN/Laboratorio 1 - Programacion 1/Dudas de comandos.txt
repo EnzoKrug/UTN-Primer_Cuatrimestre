@@ -1,0 +1,9 @@
+• el setbuf(stdout,NULL) sirve para limpiar la consola al comienzo del programa. Es necesario ponerlo si queremos usar la consola del Eclipse, si lo ejecutamos desde el .exe no es necesario.
+• En la medida que vayamos viendo funciones se va a entender mejor el concepto de return. El objetivo es retornarle un valor a la función que la llamó. Nosotros usaremos para indicar si salió Ok o no lo que nosotros pretendemos que haga la función.
+• El system("cls") o system("clear") (según el sistema operativo que usen) sirve para limpiar la consola. Lo van a ver bien claro si ejecutan el proyecto desde el .exe
+• El system("pause") permite hacer una pausa esperando que la persona apriete una tecla para continuar. Recién cuando la persona aprieta una tecla, se continua con la ejecución de las siguientes líneas.
+• Ni el system("cls"), ni el system("clear"), ni el system("pause") son obligatorios... simplemente es para darle más estética a la consola y mejorar la interacción con el usuario.
+• Tengan cuidado cuando crean el proyecto de crear uno de C (C Managed Build). (La biblioteca iostream es de C++)
+• En el ejercicio dos sólo había que reemplazar los signos de "?". Si alguno tuvo problemas, avisen. Igual sus compas compartieron algunos códigos
+• Se pueden agregar muchos archivos .c al proyecto, pero el proyecto se ejecuta completo, comenzando por la función main (NO puede haber dos "main").
+• Si les sale el error c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file clase1ejercicio3.exe: Permission denied probablemente sea porque les quedó el programa ejecutándose. Si están en la consola hagan click en el cuadradito de stop que aparece en la consola, si ya está finalizado, pero les sigue tirando el error fíjense desde el administrador de tareas si no les quedó el .exe abierto (si es así, finalicen su tarea)
